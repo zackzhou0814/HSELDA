@@ -13,15 +13,15 @@ We have preprocessed the data into XLSX format for our use.
 # Usages: 
 Run C_V_Data.py in HSE/Python to shuffle and split the data for experimental usage.
 
-Type “python Main.py --train-name IncRNA_DO_Pos_Train_#.txt --test-name 
-IncRNA_DO_Testing_#.txt --hop hop_num --use-embedding” to perform training and testing.
+Type “python Main.py --train-name IncRNA_DO_Pos_Train_#.txt --test-name IncRNA_DO_Testing_#.txt --hop hop_num --use-embedding” to perform training and testing.
+
 Where:
-#is the index of training and testing files
-hop_num is the number of hop of your choice
+- "#" is the index of training and testing files
+- hop_num is the number of hop of your choice
 
 
 # Requirements:
 This code is tested with:
-Python 3.11.4
-Pytorch 2.0.1
-Required libraries: Sklearn. Tqdm, Gensim, etc.
+- Python 3.11.4
+- Pytorch 2.0.1
+- Required libraries: Sklearn. Tqdm, Gensim, etc.
